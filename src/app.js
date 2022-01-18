@@ -14,7 +14,7 @@ let data = {
 let procurement = [];
 
 
-d3.csv('treemap.csv').then(function(incoming_data) {
+d3.csv('./treemap.csv').then(function(incoming_data) {
 
   procurement = incoming_data;
     

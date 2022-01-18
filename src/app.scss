@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+svg text {
+    fill:#fff;
+}
+
+.settings {
+    padding: 0.5em 0;
+}
+
+.tooltip {
+    background: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #333;
+    display: block;
+    width: 200px;
+    padding: 1em;
+    position: absolute;
+    z-index: 300;
+    visibility: hidden;
+}
+
+.tooltip[pos="bottom"] {
+    transform: translateY(-110%);
+}
+
+.tooltip .close_popup {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    cursor: pointer;
+}
+
+.tooltip .close_popup svg {
+    width: 15px;
+}
+
+
+
+
